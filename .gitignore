@@ -108,11 +108,3 @@ config/darkmodeeverywhereshaders.json
 #Don't ignore the Create client config so we can remove the Main Menu config button
 #it gets in the way of the beautiful FancyMenu
 !/config/create-client.toml
-config/embeddium-options.json
-config/entityculling.json
-config/ftbxmodcompat.snbt
-config/ferritecore-mixin.toml
-config/dynamic_fps.json
-config/embeddium-mixins.properties
-config/cucumber-common.toml
-config/mbd2-common.toml

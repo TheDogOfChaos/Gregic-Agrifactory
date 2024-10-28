@@ -1,12 +1,29 @@
 {
+  "extendedcrafting": {
+    "elite_auto_table": true,
+    "ender_crafter": true,
+    "basic_auto_table": true,
+    "flux_crafter": true,
+    "advanced_table": true,
+    "auto_ender_crafter": true,
+    "ultimate_table": true,
+    "ultimate_auto_table": true,
+    "epic_table": true,
+    "elite_table": true,
+    "basic_table": true,
+    "epic_auto_table": true,
+    "crafting_core": true,
+    "advanced_auto_table": true,
+    "compressor": true
+  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
     "harvest_tool.show_unbreakable": false,
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
-    "item_storage.normal_amount": 9,
     "item_storage": true,
+    "item_storage.normal_amount": 9,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
@@ -52,12 +69,14 @@
     "chiseled_bookshelf": true
   },
   "gtceu": {
-    "auto_output_info": true,
     "primitive_pump": true,
+    "auto_output_info": true,
     "workable_provider": true,
     "transformer": true,
     "controllable_provider": true,
+    "me_pattern_buffer": true,
     "exhaust_vent_info": true,
+    "me_pattern_buffer_proxy": true,
     "multiblock_structure": true,
     "recipe_logic_provider": true,
     "maintenance_info": true,
@@ -81,5 +100,17 @@
     "infused_farmland": true,
     "crop": true,
     "inferium_crop": true
+  },
+  "ae2": {
+    "part_icon": true,
+    "charger": true,
+    "debug": true,
+    "part_tooltip": true,
+    "grid_node_state": true,
+    "pattern_provider": true,
+    "part_mod_name": true,
+    "power_storage": true,
+    "crafting_monitor": true,
+    "part_name": true
   }
 }

@@ -68,6 +68,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "mysticalagradditions": {
+    "infused_farmland": true
+  },
   "gtceu": {
     "primitive_pump": true,
     "auto_output_info": true,

@@ -1,6 +1,6 @@
 {
   "type": "minecraft:mineshaft",
-  "biomes": "#minecraft:has_structure/mineshaft_mesa",
+  "biomes": "#minecraft:none",
   "mineshaft_type": "mesa",
   "spawn_overrides": {},
   "step": "vegetal_decoration"

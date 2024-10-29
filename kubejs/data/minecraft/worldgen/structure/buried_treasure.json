@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#minecraft:has_structure/buried_treasure",
+  "biomes": "#minecraft:none",
   "step": "underground_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "none",

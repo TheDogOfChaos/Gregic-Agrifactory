@@ -68,6 +68,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "hammerlib": {
+    "root": true
+  },
   "mysticalagradditions": {
     "infused_farmland": true
   },
@@ -90,6 +93,9 @@
     "hazard_cleaner_provider": true,
     "cable_info": true,
     "parallel_info": true
+  },
+  "fulleng": {
+    "storage_monitor": true
   },
   "jade": {
     "coordinates.rel": false,

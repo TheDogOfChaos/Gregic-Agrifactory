@@ -22,5 +22,5 @@ MysticalAgricultureStartupEvents.crop(event=>{
         
     }
 
-    registerCrop('magnetiteOre', CropTier.ONE, CropType.RESOURCE, CropTextures.ROCK_CROP_TEXTURES, 0x9d9d9d, 'gtceu:raw_magnetite', "Magnetite")
+    registerCrop('magnetite_ore', CropTier.ONE, CropType.RESOURCE, CropTextures.ROCK_CROP_TEXTURES, 0x9d9d9d, 'gtceu:raw_magnetite', "Magnetite")
 })

@@ -8,7 +8,7 @@
   "forge:ingots/aluminum": "null",
   "forge:ingots/nickel": "gtceu:nickel_ingot",
   "forge:ingots/chrome": "null",
-  "forge:gems/peridot": "null",
+  "forge:gems/peridot": "projectred_core:peridot",
   "forge:ingots/tin": "gtceu:tin_ingot",
   "forge:ingots/uranium": "gtceu:uranium_ingot",
   "forge:ingots/constantan": "null",

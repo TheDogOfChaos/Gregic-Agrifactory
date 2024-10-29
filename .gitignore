@@ -108,3 +108,4 @@ config/darkmodeeverywhereshaders.json
 #it gets in the way of the beautiful FancyMenu
 !/config/create-client.toml
 /config/MouseTweaks.cfg
+/config/sound_physics_remastered

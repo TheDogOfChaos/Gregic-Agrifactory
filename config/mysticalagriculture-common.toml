@@ -26,13 +26,13 @@
 	#Should right clicking on Farmland with an Essence create Essence Farmland?
 	essenceFarmlandConversion = true
 	#Should crops have a chance of dropping a second seed when harvested?
-	secondarySeedDrops = true
+	secondarySeedDrops = false
 	#The percentage chance that harvesting a Resource Crop will drop a Fertilized Essence.
 	#Range: 0.0 ~ 1.0
-	fertilizedEssenceChance = 0.1
+	fertilizedEssenceChance = 0.02
 	#The percentage chance that a passive or hostile mob will drop an Inferium Essence when killed.
 	#Range: 0.0 ~ 1.0
-	inferiumDropChance = 0.2
+	inferiumDropChance = 0.25
 
 #World generation options.
 [World]

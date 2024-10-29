@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ludicrous_voltage"
+	group: "425B061CF04911A5"
+	id: "2A875E7034491C8D"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Ludicrous Voltage"
+}

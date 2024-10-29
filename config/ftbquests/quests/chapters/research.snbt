@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "research"
+	group: ""
+	id: "052E54103E7719C9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Research"
+}

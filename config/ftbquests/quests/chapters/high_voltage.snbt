@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "high_voltage"
+	group: "425B061CF04911A5"
+	id: "2258655980C1A94A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "High Voltage"
+}

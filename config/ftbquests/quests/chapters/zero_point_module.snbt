@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zero_point_module"
+	group: "425B061CF04911A5"
+	id: "58EAA88CEE99A914"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Zero Point Module"
+}

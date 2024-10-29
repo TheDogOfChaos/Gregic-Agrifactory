@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "medium_voltage"
+	group: "425B061CF04911A5"
+	id: "788AA1BC0E251F86"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Medium Voltage"
+}

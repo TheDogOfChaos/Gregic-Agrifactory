@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:cave",
+  "type": "minecraft:nether_cave",
   "config": {
     "probability": 0,
     "y": {

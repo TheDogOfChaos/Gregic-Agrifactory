@@ -105,6 +105,11 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "toms_peripherals": {
+    "full_modem_info": true,
+    "modem_info": true,
+    "wdt_info": true
+  },
   "mysticalagriculture": {
     "infused_farmland": true,
     "crop": true,

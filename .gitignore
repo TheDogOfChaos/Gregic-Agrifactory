@@ -109,3 +109,4 @@ config/darkmodeeverywhereshaders.json
 !/config/create-client.toml
 /config/MouseTweaks.cfg
 /config/sound_physics_remastered
+config/DistantHorizons.toml

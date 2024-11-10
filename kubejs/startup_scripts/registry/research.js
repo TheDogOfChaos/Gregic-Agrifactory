@@ -1,28 +1,34 @@
 StartupEvents.registry('item', e => {
-    // 1x packs
-    e.create('automation_science_pack')
-    e.create('logistic_science_pack')
-    e.create('agriculture_science_pack')
-    e.create('chemical_science_pack')
-    e.create('production_science_pack')
-    e.create('utility_science_pack')
-    e.create('quantum_science_pack')
+    // 1x
+    e.create('basic_tech_card')
+    e.create('automation_tech_card')
+    e.create('logistic_tech_card')
+    e.create('agriculture_tech_card')
+    e.create('chemical_tech_card')
+    e.create('production_tech_card')
+    e.create('utility_tech_card')
+    e.create('quantum_tech_card')
 
-    // 8x packs
-    e.create('automation_science_pack_8')
-    e.create('logistic_science_pack_8')
-    e.create('agriculture_science_pack_8')
-    e.create('chemical_science_pack_8')
-    e.create('production_science_pack_8')
-    e.create('utility_science_pack_8')
-    e.create('quantum_science_pack_8')
+    // 8x
+    e.create('basic_tech_card_8x')
+    e.create('automation_tech_card_8x')
+    e.create('logistic_tech_card_8x')
+    e.create('agriculture_tech_card_8x')
+    e.create('chemical_tech_card_8x')
+    e.create('production_tech_card_8x')
+    e.create('utility_tech_card_8x')
+    e.create('quantum_tech_card_8x')
 
-    // 64x packs
-    e.create('automation_science_pack_64')
-    e.create('logistic_science_pack_64')
-    e.create('agriculture_science_pack_64')
-    e.create('chemical_science_pack_64')
-    e.create('production_science_pack_64')
-    e.create('utility_science_pack_64')
-    e.create('quantum_science_pack_64')
+    // 64x
+    e.create('basic_tech_card_64x')
+    e.create('automation_tech_card_64x')
+    e.create('logistic_tech_card_64x')
+    e.create('agriculture_tech_card_64x')
+    e.create('chemical_tech_card_64x')
+    e.create('production_tech_card_64x')
+    e.create('utility_tech_card_64x')
+    e.create('quantum_tech_card_64x')
+
+    //misc
+    e.create('blank_tech_card')
 })

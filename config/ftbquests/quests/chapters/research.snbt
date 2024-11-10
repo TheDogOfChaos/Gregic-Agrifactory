@@ -6,6 +6,16 @@
 	id: "052E54103E7719C9"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "2A77F9CD71B22A96"
+		tasks: [{
+			count: 10L
+			id: "6AEFA68E8EAD2F8C"
+			item: { Count: 10, id: "gtceu:iron_plate" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: -1.0d
+	}]
 	title: "Research"
 }

@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "zero_point_module"
 	group: "425B061CF04911A5"
+	icon: "gtceu:zpm_machine_hull"
 	id: "58EAA88CEE99A914"
 	order_index: 6
 	quest_links: [ ]

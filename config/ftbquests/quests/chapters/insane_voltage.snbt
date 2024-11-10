@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "insane_voltage"
 	group: "425B061CF04911A5"
+	icon: "gtceu:iv_machine_hull"
 	id: "671AF1E1AA8C6501"
 	order_index: 4
 	quest_links: [ ]

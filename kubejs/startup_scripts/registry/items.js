@@ -33,4 +33,7 @@ StartupEvents.registry('item', e => {
 
     //misc
     e.create('blank_tech_card')
+
+    // It's over.
+    e.create('pyrrhic_victory')
 })

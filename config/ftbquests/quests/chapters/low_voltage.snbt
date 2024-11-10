@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "low_voltage"
 	group: "425B061CF04911A5"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	icon: "gtceu:lv_machine_hull"
 	id: "7E88C4D6D8F71303"
 	order_index: 0
 	quest_links: [ ]

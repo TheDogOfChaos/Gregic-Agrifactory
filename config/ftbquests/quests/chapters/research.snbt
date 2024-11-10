@@ -1,4 +1,5 @@
 {
+	consume_items: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "research"
@@ -7,16 +8,120 @@
 	id: "052E54103E7719C9"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "2A77F9CD71B22A96"
-		tasks: [{
-			count: 10L
-			id: "6AEFA68E8EAD2F8C"
-			item: { Count: 10, id: "gtceu:iron_plate" }
-			type: "item"
-		}]
-		x: 0.0d
-		y: -1.0d
-	}]
+	quests: [
+		{
+			description: [
+				"Unlocks Steam Power, your primary source of power for now."
+				""
+				"Don't be intimidated, it's only gonna get worse from here."
+			]
+			id: "2A77F9CD71B22A96"
+			rewards: [{
+				auto: "no_toast"
+				icon: "gtceu:steam_bucket"
+				id: "085847F8A1DECC8C"
+				ignore_reward_blocking: true
+				stage: "steamPower"
+				type: "gamestage"
+			}]
+			subtitle: "A steep request right off the bat."
+			tasks: [{
+				consume_items: false
+				count: 64L
+				id: "6AEFA68E8EAD2F8C"
+				item: "gtceu:iron_plate"
+				type: "item"
+			}]
+			title: "Steam Power"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "kubejs:automation_tech_card"
+			id: "5BEF52812EF1AB53"
+			rewards: [{
+				auto: "no_toast"
+				icon: "kubejs:automation_tech_card"
+				id: "1223E6F0E5EF478E"
+				ignore_reward_blocking: true
+				stage: "automationTechCard"
+				type: "gamestage"
+			}]
+			title: "Automation Tech Card"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			icon: "kubejs:logistic_tech_card"
+			id: "302AAB0E87994EAB"
+			rewards: [{
+				auto: "no_toast"
+				icon: "kubejs:logistic_tech_card"
+				id: "2D0D639F39F975C1"
+				ignore_reward_blocking: true
+				stage: "logisticsTech"
+				type: "gamestage"
+			}]
+			title: "Logistics Tech Card"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			description: ["A &lPyrrhic Victory&r is a victory that inflicts such a devastating toll on the victor that it is tantamount to defeat."]
+			hide_text_until_complete: true
+			icon: "kubejs:pyrrhic_victory"
+			id: "494F8ED466016B0D"
+			rewards: [{
+				auto: "disabled"
+				id: "609418A9B9941B12"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "gregic_agrifactory:pyrrhic_victory"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "You've won..."
+			title: "Pyrrhic Victory"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			icon: "kubejs:agriculture_tech_card"
+			id: "5B037384BDA2F14E"
+			rewards: [{
+				auto: "no_toast"
+				icon: "kubejs:agriculture_tech_card"
+				id: "74A0112DB73132B3"
+				ignore_reward_blocking: true
+				stage: "agricultureTech"
+				type: "gamestage"
+			}]
+			title: "Agriculture Tech Card"
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			id: "28E9270561CADB49"
+			rewards: [{
+				auto: "no_toast"
+				icon: "gtceu:lv_machine_hull"
+				id: "4FF93A2AB1F5FB21"
+				ignore_reward_blocking: true
+				stage: "lowVoltage"
+				title: "Low Voltage"
+				type: "gamestage"
+			}]
+			title: "Low Voltage"
+			x: 4.5d
+			y: 1.5d
+		}
+	]
 	title: "Research"
 }

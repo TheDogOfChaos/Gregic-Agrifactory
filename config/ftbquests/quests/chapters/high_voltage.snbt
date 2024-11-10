@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "high_voltage"
 	group: "425B061CF04911A5"
+	icon: "gtceu:hv_machine_hull"
 	id: "2258655980C1A94A"
 	order_index: 2
 	quest_links: [ ]

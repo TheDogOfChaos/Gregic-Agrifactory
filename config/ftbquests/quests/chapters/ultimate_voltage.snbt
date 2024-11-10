@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "ultimate_voltage"
 	group: "425B061CF04911A5"
+	icon: "gtceu:uv_machine_hull"
 	id: "507C8530672E0686"
 	order_index: 7
 	quest_links: [ ]

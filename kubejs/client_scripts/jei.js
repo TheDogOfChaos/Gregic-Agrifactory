@@ -1,7 +1,7 @@
 JEIEvents.hideItems(event => {//begin the massacre
 
     // Greate/Create
-    if (Platform.isLoaded('greate') && false /*DO NOT SET TO TRUE ATM, WORLD-BREAKING BUG*/) { // greate
+    if (Platform.isLoaded('greate') && false /*DO NOT SET TO TRUE ATM*/) { // greate
         event.hide(/greate:large_.*_cogwheel/)
         event.hide(/greate:large_.*_.*_cogwheel/)
         event.hide(/greate:large_.*_.*_.*_cogwheel/)

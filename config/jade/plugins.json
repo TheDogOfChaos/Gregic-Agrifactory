@@ -68,14 +68,14 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "greate": {
-    "belt_icon": true
-  },
   "hammerlib": {
     "root": true
   },
   "mysticalagradditions": {
     "infused_farmland": true
+  },
+  "pipez": {
+    "pipe": true
   },
   "gtceu": {
     "primitive_pump": true,

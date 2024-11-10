@@ -1,4 +1,6 @@
 StartupEvents.registry('item', e => {
+
+    // Research: //
     // 1x
     e.create('basic_tech_card').texture('kubejs:item/tech_cards/basic_tech_card')
     e.create('automation_tech_card').texture('kubejs:item/tech_cards/automation_tech_card')

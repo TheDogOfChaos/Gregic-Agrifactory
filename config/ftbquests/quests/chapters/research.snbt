@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "research"
 	group: ""
+	icon: "computercraft:printed_pages"
 	id: "052E54103E7719C9"
 	order_index: 1
 	quest_links: [ ]

@@ -30,5 +30,5 @@ JEIEvents.hideItems(event => {//begin the massacre
         event.hide(/greate:.*_.*_mechanical_saw/)
         event.hide(/greate:.*_.*_.*_mechanical_saw/)
     }
-    event.hide(['create:water_wheel', 'create:large_water_wheel', 'create:hand_crank', 'create:steam_engine', 'create:windmill_bearing'])
+    event.hide(['create:water_wheel', 'create:large_water_wheel', 'create:hand_crank', 'create:steam_engine', 'create:windmill_bearing']) //NoMoRPM
 })

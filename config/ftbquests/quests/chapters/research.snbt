@@ -47,6 +47,12 @@
 				stage: "automationTechCard"
 				type: "gamestage"
 			}]
+			tasks: [{
+				count: 16L
+				id: "6675FE32287834E8"
+				item: { Count: 16, id: "kubejs:basic_tech_card" }
+				type: "item"
+			}]
 			title: "Automation Tech Card"
 			x: 0.0d
 			y: 5.0d
@@ -61,6 +67,10 @@
 				ignore_reward_blocking: true
 				stage: "logisticsTech"
 				type: "gamestage"
+			}]
+			tasks: [{
+				id: "0B635A7E98E73651"
+				type: "checkmark"
 			}]
 			title: "Logistics Tech Card"
 			x: 0.0d
@@ -88,6 +98,18 @@
 			shape: "octagon"
 			size: 2.0d
 			subtitle: "You've won..."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "minecraft:item/barrier"
+					}
+				}
+				id: "069879572326D1DC"
+				title: "Nope, not yet!"
+				type: "custom"
+			}]
 			title: "Pyrrhic Victory"
 			x: 0.0d
 			y: -4.5d
@@ -103,11 +125,22 @@
 				stage: "agricultureTech"
 				type: "gamestage"
 			}]
+			tasks: [{
+				id: "155E0F174F42F8CB"
+				type: "checkmark"
+			}]
 			title: "Agriculture Tech Card"
 			x: 0.0d
 			y: 15.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:block/casings/voltage/lv/side"
+				}
+			}
 			id: "28E9270561CADB49"
 			rewards: [{
 				auto: "no_toast"
@@ -117,6 +150,10 @@
 				stage: "lowVoltage"
 				title: "Low Voltage"
 				type: "gamestage"
+			}]
+			tasks: [{
+				id: "217E0FEA86A8D191"
+				type: "checkmark"
 			}]
 			title: "Low Voltage"
 			x: 4.5d

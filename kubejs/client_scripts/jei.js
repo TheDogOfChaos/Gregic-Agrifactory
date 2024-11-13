@@ -34,7 +34,7 @@ JEIEvents.hideItems(event => {//begin the massacre
 
     //* Mystical Agriculture
     // all Mystical Agriculture seeds.
-    let maSeeds = Item.getTypeList.filter(id => (id.includes("mysticalagriculture") && id.includes("seeds")))
+    let maSeeds = Item.getTypeList().filter(id => (id.includes("mysticalagriculture") && id.includes("seeds"))) //TODO: find a working way of doing this (TypeError: Cannot find function filter in object Function)
 
     // Ore seeds created in startup_scripts\registry\mysticalAgriculture.js
     // this array will be expanded over time as new ore seeds are added
@@ -43,6 +43,7 @@ JEIEvents.hideItems(event => {//begin the massacre
     // we want to keep the ore seeds, so filter them out of maSeeds
     maSeeds = maSeeds.filter(item => !oreSeeds.includes(item))
 
+    console.log("Hiding these Mystical Agriculture seeds from JEI:", maSeeds);
     // KILL EM ALL!!
     maSeeds.forEach(item => {event.hide(item)});
 })

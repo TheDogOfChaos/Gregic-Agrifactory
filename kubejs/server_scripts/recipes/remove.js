@@ -1,3 +1,6 @@
+// priority: -999
+//! THIS RUNS AFTER EVERY OTHER SERVER SCRIPT, TO CATCH ANY STRAGGLERS
+
 ServerEvents.recipes(event => {
     // Create
     event.remove({output:"create:steam_engine"})
@@ -12,4 +15,5 @@ ServerEvents.recipes(event => {
     event.remove({type: "mysticalagriculture:enchanter"})
     event.remove({type: "mysticalagriculture:soul_extraction"})
     event.remove({type: "mysticalagriculture:soulium_spawner"})
+    event.remove({type: "mysticalagriculture:reprocessor"})
 })

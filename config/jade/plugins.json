@@ -68,6 +68,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "greate": {
+    "belt_icon": true
+  },
   "hammerlib": {
     "root": true
   },

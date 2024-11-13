@@ -1,0 +1,6 @@
+{
+    "parent": "item/seed_bag",
+    "textures": {
+        "layer0": "item/seed_bag_filled"
+    }
+}

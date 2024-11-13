@@ -6,15 +6,32 @@
 	id: "386355E1BFD23A3B"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "2FB20CD6BFE710B5"
-		tasks: [{
-			id: "0A5F5273610C0AE4"
-			type: "checkmark"
-		}]
-		title: "Begin here."
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			icon: "ftbquests:book"
+			id: "2FB20CD6BFE710B5"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "0A5F5273610C0AE4"
+				type: "checkmark"
+			}]
+			title: "It all begins here."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FB20CD6BFE710B5"]
+			icon: "minecraft:writable_book"
+			id: "6378326137F8751B"
+			tasks: [{
+				id: "02C01D9BD28B9088"
+				type: "checkmark"
+			}]
+			title: "Developer's Forenotes"
+			x: -2.0d
+			y: 0.0d
+		}
+	]
 	title: "Welcome!"
 }

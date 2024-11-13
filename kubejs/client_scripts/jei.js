@@ -32,3 +32,14 @@ JEIEvents.hideItems(event => {//begin the massacre
     }
     event.hide(['create:water_wheel', 'create:large_water_wheel', 'create:hand_crank', 'create:steam_engine', 'create:windmill_bearing']) //NoMoRPM
 })
+
+JEIEvents.addItems(event => {
+    // all Mystical Agriculture seeds.
+    let maSeeds = Item.getTypeList.filter(id => (id.includes("mysticalagriculture") && id.includes("seeds")))
+
+    let oreSeeds = ['mysticalagriculture:magnetite_ore_seeds']
+
+    maSeeds = maSeeds.filter(item => !maSeeds.includes(item))
+    
+    maSeeds.forEach(item => {event.hide(item)});
+})

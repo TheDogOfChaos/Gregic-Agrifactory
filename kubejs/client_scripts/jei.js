@@ -46,7 +46,6 @@ JEIEvents.hideItems(event => {//begin the massacre
     maSeeds = maSeeds.filter(item => !oreSeeds.includes(item));
 
     console.log("Hiding these Mystical Agriculture seeds from JEI:", maSeeds); //! comment out when not debugging
-    console.log(typeof maSeeds)
 
     // KILL EM ALL!!
     event.hide(maSeeds);

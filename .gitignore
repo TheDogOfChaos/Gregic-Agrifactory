@@ -15,9 +15,11 @@
 !/CONTRIBUTING.md
 !/FAQ.md
 !/KNOWN-ISSUES.md
-!/config/lostcities/profiles/monidefault.json
 !/mods/systeams*
 !/mods/ExtendedCrafting*
+!/mods/greate*
+!/mods/GregicAgrifactoryCore*
+
 
 /mods/.index
 /mods/.connector
@@ -99,8 +101,7 @@ $RECYCLE.BIN/
 ### https://raw.github.com/github/gitignore/cc542de017c606138a87ee4880e5f06b3a306def/Global/OSX.gitignore
 .DS_Store
 .AppleDouble
-.LSOverride
-kubejs/assets/gtceu/textures/item/material_sets/infinity/infinity_plate.xcf
+.LSOverrides
 config/packmode.json
 config/darkmodeeverywhereshaders.json
 

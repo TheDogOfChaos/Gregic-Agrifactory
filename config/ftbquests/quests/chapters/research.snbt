@@ -159,6 +159,55 @@
 			x: 4.5d
 			y: 2.5d
 		}
+		{
+			description: [
+				"\"What do you need guns for? Isn't that overkill for hostile mobs?\""
+				""
+				"&4\"It's not for the creepers.\""
+			]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 17
+					GunFireMode: "SEMI"
+					GunId: "tacz:glock_17"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "507481F0C3B4DC22"
+			rewards: [{
+				auto: "invisible"
+				icon: "minecraft:gunpowder"
+				id: "5EC4FC11128B266B"
+				ignore_reward_blocking: true
+				stage: "basicKineticWeapons"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "6B3E756FC4B12091"
+				type: "custom"
+			}]
+			title: "Basic Kinetic Weapons"
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			id: "765A8E26A89BDE81"
+			rewards: [{
+				auto: "invisible"
+				id: "36464A0AA4A9F071"
+				ignore_reward_blocking: true
+				stage: "advancedKineticWeapons"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "180FB26286867344"
+				type: "custom"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
 	]
 	title: "Research"
 }

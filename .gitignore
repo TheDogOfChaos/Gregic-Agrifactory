@@ -19,7 +19,8 @@
 !/mods/ExtendedCrafting*
 !/mods/greate*
 !/mods/GregicAgrifactoryCore*
-!/mods/h*
+!/mods/h
+!/rawAssets
 
 
 /mods/.index

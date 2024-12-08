@@ -15,10 +15,11 @@
 				""
 				"Don't be intimidated, it's only gonna get worse from here."
 			]
+			icon: "gtceu:lv_steam_turbine"
 			id: "2A77F9CD71B22A96"
 			rewards: [{
 				auto: "no_toast"
-				icon: "gtceu:steam_bucket"
+				icon: "gtceu:lv_steam_turbine"
 				id: "085847F8A1DECC8C"
 				ignore_reward_blocking: true
 				stage: "steamPower"
@@ -58,6 +59,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["5BEF52812EF1AB53"]
 			icon: "kubejs:logistic_tech_card"
 			id: "302AAB0E87994EAB"
 			rewards: [{
@@ -138,13 +140,19 @@
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "gtceu:block/casings/voltage/lv/side"
+					Icon: "kubejs:textures/quests/voltage_tiers/lv.png"
 				}
 			}
 			id: "28E9270561CADB49"
 			rewards: [{
 				auto: "no_toast"
-				icon: "gtceu:lv_machine_hull"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "kubejs:textures/quests/voltage_tiers/lv.png"
+					}
+				}
 				id: "4FF93A2AB1F5FB21"
 				ignore_reward_blocking: true
 				stage: "lowVoltage"
@@ -152,19 +160,15 @@
 				type: "gamestage"
 			}]
 			tasks: [{
-				id: "217E0FEA86A8D191"
-				type: "checkmark"
+				id: "09E3C845412682A7"
+				type: "custom"
 			}]
 			title: "Low Voltage"
 			x: 4.5d
 			y: 2.5d
 		}
 		{
-			description: [
-				"\"What do you need guns for? Isn't that overkill for hostile mobs?\""
-				""
-				"&4\"It's not for the creepers.\""
-			]
+			description: ["{image:kubejs:textures/quests/not_for_the_creepers.png width:165 height:108 align:center fit:true}"]
 			icon: {
 				Count: 1
 				id: "tacz:modern_kinetic_gun"
@@ -193,6 +197,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["507481F0C3B4DC22"]
 			id: "765A8E26A89BDE81"
 			rewards: [{
 				auto: "invisible"
@@ -205,8 +210,73 @@
 				id: "180FB26286867344"
 				type: "custom"
 			}]
+			title: "Advanced Kinetic Weapons"
 			x: 12.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["28E9270561CADB49"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/quests/voltage_tiers/mv.png"
+				}
+			}
+			id: "5757D1BCD594278D"
+			rewards: [{
+				auto: "invisible"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "kubejs:textures/quests/voltage_tiers/mv.png"
+					}
+				}
+				id: "433E294763DA486F"
+				ignore_reward_blocking: true
+				stage: "mediumVoltage"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "7C5B120FBC7F5532"
+				type: "custom"
+			}]
+			title: "Medium Voltage"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5757D1BCD594278D"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/quests/voltage_tiers/hv.png"
+				}
+			}
+			id: "0C8D77A350180FE7"
+			rewards: [{
+				auto: "invisible"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "kubejs:textures/quests/voltage_tiers/hv.png"
+					}
+				}
+				id: "641AF3223875DEAF"
+				ignore_reward_blocking: true
+				stage: "highVoltage"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "67CE2DB8E18EFE9E"
+				type: "custom"
+			}]
+			title: "High Voltage"
+			x: 4.5d
+			y: 8.5d
 		}
 	]
 	title: "Research"

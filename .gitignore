@@ -21,6 +21,8 @@
 !/mods/GregicAgrifactoryCore*
 !/mods/h
 !/rawAssets
+!README.md
+!LICENSE
 
 
 /mods/.index

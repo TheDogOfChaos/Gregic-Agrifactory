@@ -6,15 +6,15 @@ recipes:
 
   # Whether to remove Block/Ingot compression and decompression in the Crafting Table.
   # Default: true
-  disableManualCompression: true
+  disableManualCompression: false
 
   # Change the recipe of Rods in the Lathe to 1 Rod and 2 Small Piles of Dust, instead of 2 Rods.
   # Default: false
-  harderRods: true
+  harderRods: false
 
   # Whether to make crafting recipes for Bricks, Firebricks, Nether Bricks, and Coke Bricks harder.
   # Default: false
-  harderBrickRecipes: true
+  harderBrickRecipes: false
 
   # Whether to nerf Wood crafting to 2 Planks from 1 Log, and 2 Sticks from 2 Planks.
   # Default: false
@@ -23,47 +23,47 @@ recipes:
   # Whether to make Wood related recipes harder.
   # Excludes sticks and planks.
   # Default: false
-  hardWoodRecipes: true
+  hardWoodRecipes: false
 
   # Recipes for Buckets, Cauldrons, Hoppers, and Iron Bars require Iron Plates, Rods, and more.
   # Default: true
-  hardIronRecipes: true
+  hardIronRecipes: false
 
   # Whether to make Redstone related recipes harder.
   # Default: false
-  hardRedstoneRecipes: true
+  hardRedstoneRecipes: false
 
   # Whether to make Vanilla Tools and Armor recipes harder.
   # Excludes Flint and Steel, and Buckets.
   # Default: false
-  hardToolArmorRecipes: true
+  hardToolArmorRecipes: false
 
   # Whether to make miscellaneous recipes harder.
   # Default: false
-  hardMiscRecipes: true
+  hardMiscRecipes: false
 
   # Whether to make Glass related recipes harder. Default: true
-  hardGlassRecipes: true
+  hardGlassRecipes: false
 
   # Whether to nerf the Paper crafting recipe.
   # Default: true
-  nerfPaperCrafting: true
+  nerfPaperCrafting: false
 
   # Recipes for items like Iron Doors, Trapdoors, Anvil require Iron Plates, Rods, and more.
   # Default: false
-  hardAdvancedIronRecipes: true
+  hardAdvancedIronRecipes: false
 
   # Whether to make coloring blocks like Concrete or Glass harder.
   # Default: false
-  hardDyeRecipes: true
+  hardDyeRecipes: false
 
   # Whether to remove charcoal smelting recipes from the vanilla furnace.
   # Default: true
-  harderCharcoalRecipe: true
+  harderCharcoalRecipe: false
 
   # Whether to make the Flint and Steel recipe require steel parts.
   # Default: true.
-  flintAndSteelRequireSteel: true
+  flintAndSteelRequireSteel: false
 
   # Whether to remove Vanilla Block Recipes from the Crafting Table.
   # Default: false
@@ -71,7 +71,7 @@ recipes:
 
   # Whether to remove Vanilla TNT Recipe from the Crafting Table.
   # Default: true
-  removeVanillaTNTRecipe: true
+  removeVanillaTNTRecipe: false
 
   # How many Multiblock Casings to make per craft. Either 1, 2, or 3.
   # Default: 2
@@ -83,7 +83,7 @@ recipes:
 
   # Whether to nerf machine controller recipes.
   # Default: false
-  hardMultiRecipes: true
+  hardMultiRecipes: false
 
   # Whether tools should have enchants or not. Like the flint sword getting fire aspect.
   # Default: true
@@ -180,10 +180,6 @@ machines:
   # Default: false
   harmlessActiveTransformers: false
 
-  # Divisor for Recipe Duration per Overclock.
-  # Default: 2.0
-  overclockDivisor: 2.0
-
   # Whether to play machine sounds while machines are active.
   # Default: true
   machineSounds: true
@@ -277,11 +273,6 @@ machines:
   # (Requires Ordered Assembly Line Item Inputs to be enabled.)
   # Default: false
   orderedAssemblyLineFluids: false
-
-  # Let Dual Hatch has more ability. (DEPRECATED: does nothing now)
-  # When enabled it, Dual Hatch will can used to assemble line and so on.
-  # Need restart Minecraft to apply.
-  enableMoreDualHatchAbility: false
 
   # Default maximum parallel of steam multiblocks
   # Default: 8
@@ -404,6 +395,11 @@ client:
     # Default: 0
     hudOffsetY: 0
 
+  renderer:
+    # Render fluids in multiblocks that support them?
+    # Default: true
+    renderFluids: true
+
 # Config options for Tools and Armor
 tools:
   # Random chance for electric tools to take actual damage
@@ -480,11 +476,6 @@ gameplay:
   # How much environmental hazards decay per chunk, per tick.
   # Default: 0.001
   environmentalHazardDecayRate: 0.001
-
-  # Whether the GTCEu's ingame guidebook, 'Compass', be enabled.
-  # WARNING: INCOMPLETE
-  # Default: false
-  enableCompass: false
 
 # Config options for Mod Compatibility
 compat:

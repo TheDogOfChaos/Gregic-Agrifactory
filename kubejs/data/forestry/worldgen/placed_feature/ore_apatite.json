@@ -1,0 +1,9 @@
+{
+    "feature": "forestry:ore_apatite",
+    "placement": [
+		{
+			"type": "minecraft:count",
+			"count": 0
+		}
+    ]
+}

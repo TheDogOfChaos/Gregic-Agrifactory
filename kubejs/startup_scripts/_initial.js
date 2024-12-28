@@ -6,6 +6,6 @@
  * @key The Id of the broken/bugged/problematic block/item.
  * @value A short reason of the issues that the block/item is causing.
  */
-global.problematicBlocks = new Map([
+global.problematicBlocksAndItems = new Map([
     ['forestry:trade_station', "Its GUI is currently nonfunctional, and §l§nCANNOT§r be closed without opening FTB Quests's GUI."]
 ]);

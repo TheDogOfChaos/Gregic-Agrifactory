@@ -11,4 +11,7 @@ ServerEvents.recipes(event => {
 
     // The absolute ENTIRITY of Gregtech.
     event.remove({mod:"gtceu"});
+
+    // Remove recipes for fucked shit.
+    global.problematicBlocksAndItems.forEach((value, key, map)=>{event.remove({output:key})});
 })

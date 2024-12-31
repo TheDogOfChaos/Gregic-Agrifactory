@@ -74,12 +74,6 @@
   "hammerlib": {
     "root": true
   },
-  "mysticalagradditions": {
-    "infused_farmland": true
-  },
-  "pipez": {
-    "pipe": true
-  },
   "gtceu": {
     "primitive_pump": true,
     "auto_output_info": true,
@@ -112,15 +106,15 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "complicated_bees": {
+    "show_cycle_ticks": false,
+    "apiary_errors": true,
+    "show_errors": true
+  },
   "toms_peripherals": {
     "full_modem_info": true,
     "modem_info": true,
     "wdt_info": true
-  },
-  "mysticalagriculture": {
-    "infused_farmland": true,
-    "crop": true,
-    "inferium_crop": true
   },
   "ae2": {
     "part_icon": true,
